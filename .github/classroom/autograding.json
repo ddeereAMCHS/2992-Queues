@@ -2,10 +2,10 @@
   "tests": [
     {
       "name": "input1.txt",
-      "setup": "javac StackTester.java",
-      "run": "java StackTester",
+      "setup": "javac QueueTester.java",
+      "run": "java QueueTester",
       "input": "input1.txt",
-      "output": "[12, 7]\r\n[37, 19, 12, 7]\r\n[19, 12, 7]\r\n19\r\n3\r\nfalse\r\n[72, 19, 12, 7]\r\n[7]\r\n7\r\n1\r\nfalse\r\n[]\r\nnull\r\n0\r\ntrue",
+      "output": "[7, 12]\r\n[7, 12, 19, 37]\r\n[12, 19, 37]\r\n12\r\n37\r\n3\r\nfalse\r\n[12, 19, 37, 72]\r\n[72]\r\n72\r\n72\r\n1\r\nfalse\r\n[]\r\nnull\r\nnull\r\n0\r\ntrue",
       "comparison": "included",
       "timeout": 10,
       "points": null
