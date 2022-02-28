@@ -1,25 +1,28 @@
-push 7
-push 12
+enqueue 7
+enqueue 12
 print
-push 19
-push 37
+enqueue 19
+enqueue 37
 print
-pop
+dequeue
 print
-peek
+front
+rear
 size
 isEmpty
-push 72
+enqueue 72
 print
-pop
-pop
-pop
+dequeue
+dequeue
+dequeue
 print
-peek
+front
+rear
 size
 isEmpty
-pop
+dequeue
 print
-peek
+front
+rear
 size
 isEmpty
